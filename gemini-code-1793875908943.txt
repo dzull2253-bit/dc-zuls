@@ -1,0 +1,24 @@
+bot-discord-saya/
+├── src/
+│   ├── commands/
+│   │   ├── music/
+│   │   │   ├── nowplaying.js
+│   │   │   ├── play.js
+│   │   │   ├── queue.js
+│   │   │   ├── skip.js
+│   │   │   ├── stop.js
+│   │   │   └── volume.js
+│   │   └── utility/
+│   │       └── ping.js
+│   ├── events/
+│   │   ├── interactionCreate.js
+│   │   └── ready.js
+│   ├── handlers/
+│   │   └── commandHandler.js
+│   ├── utils/
+│   │   └── playerUI.js
+│   ├── deploy-commands.js
+│   └── index.js
+├── .env
+├── config.json
+└── package.json

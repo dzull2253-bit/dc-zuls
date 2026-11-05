@@ -1,0 +1,19 @@
+{
+  "name": "bot-discord-saya",
+  "version": "1.0.0",
+  "description": "Bot Discord Utility dan Pemutar Musik Multi-platform",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discord-player/extractor": "^0.5.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord-player": "^6.6.10",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8"
+  }
+}
